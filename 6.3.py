@@ -5,6 +5,6 @@ try:
         print("Вміст файлу:")
         print(content)
 except FileNotFoundError:
-    print("Помилка: Файл за шляхом не існує.")
+    print("Файл за шляхом не існує")
 except Exception as e:
     print("Сталася помилка під час читання файлу")
